@@ -2,10 +2,25 @@ body {
   background: #e5e5e5;
   font-family: Roboto, sans-serif;
 }
+.logo{
+text-decoration: none;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+}
+.logo-first {
+  color: #2196F3;
+}
+.logo-second:visited{
+text-decoration: none;
+color: #000;
+}
+
 /*навигация по сайту*/
 .site-nav .link {
   color: #212121;
-  font-style: normal:
+  font-style: normal;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -14,6 +29,7 @@ body {
 .site-nav .link.current {
   color: #2196f3;
 }
+
 /*курсор для кнопок и ссылок*/
 .pointer {
   cursor: pointer;
@@ -71,4 +87,14 @@ p {
   font-size: 16px;
   line-height: 1.19;
   color: #757575;
+}
+address{
+  font-style: normal;
+}
+ul {
+  list-style: none;
+}
+a:{
+  text-decoration: none;
+  color: #000;
 }
