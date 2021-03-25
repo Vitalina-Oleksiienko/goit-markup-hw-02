@@ -1,5 +1,5 @@
 body {
-  background: #e5e5e5;
+  background: #fff;
   font-family: Roboto, sans-serif;
 }
 .logo{
@@ -7,6 +7,7 @@ text-decoration: none;
 font-weight: bold;
 font-size: 26px;
 line-height: 1.19;
+font-family: Raleway;
 }
 .logo-first {
   color: #2196F3;
@@ -15,12 +16,27 @@ line-height: 1.19;
 text-decoration: none;
 color: #000;
 }
-
+.portfolio-logo{
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  text-decoration: none;
+  color: #2196F3;
+}
 /*навигация по сайту*/
 .site-nav .link {
   color: #212121;
   font-style: normal;
   text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #757575;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -29,24 +45,36 @@ color: #000;
 .site-nav .link.current {
   color: #2196f3;
 }
-
 /*курсор для кнопок и ссылок*/
 .pointer {
   cursor: pointer;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
 }
 /*Эффективные решения для вашего бизнеса*/
+.main{
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background: #2F303A;
+}
 .title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   color: #fff;
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
 }
 /* Button */
-button {
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
+.stydio-button {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -54,8 +82,15 @@ button {
   background-color: #2196f3;
   font-family: inherit;
 }
-.portfolio-button {
+.portfolio-button .element:focus
+.portfolio-button .element:hover {
+  background: #F5F4FA;
+  border-radius: 4px;
+  color: #000
+  background-color: #2196F3;
+  color: #fff;
 }
+
 /* Особенности */
 .peculiarity {
   font-family: Roboto;
@@ -70,11 +105,26 @@ button {
   line-height: 1.71;
   color: #757575;
 }
+.list{
+  
+}
+.user{
+  background: #F5F4FA;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+  width: 1600px;
+}
 .main-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   color: #212121;
+ font-family: Roboto;
+ text-align: center;
+}
+.item{
+   
 }
 h3 {
   font-weight: 500;
@@ -93,8 +143,13 @@ address{
 }
 ul {
   list-style: none;
+  color: #212121;
 }
-a:{
+a{
   text-decoration: none;
-  color: #000;
+  color: #2196f3
+}
+footer{
+ 
+  background: #2F303A;
 }
