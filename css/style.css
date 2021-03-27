@@ -1,5 +1,5 @@
 body {
-  background: #fff;
+  background: var(--list-color, white);
   font-family: Roboto, sans-serif;
 }
 .logo{
@@ -10,11 +10,11 @@ line-height: 1.19;
 font-family: Raleway;
 }
 .logo-first {
-  color: #2196F3;
+  color: var(--logo-color, #2196f3)
 }
 .logo-second:visited{
-text-decoration: none;
-color: #000;
+  text-decoration: none;
+  color: #000;
 }
 .portfolio-logo{
   font-family: Raleway;
@@ -24,26 +24,23 @@ color: #000;
   letter-spacing: 0.03em;
   font-style: normal;
   text-decoration: none;
-  color: #2196F3;
+  color: var(--logo-color, #2196f3);
 }
 /*навигация по сайту*/
 .site-nav .link {
-  color: #212121;
   font-style: normal;
   text-decoration: none;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  color: #757575;
+  color: var(--text-color, #757575)
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--logo-color, #2196f3)
 }
 .site-nav .link.current {
-  color: #2196f3;
+  color: var(--logo-color, #2196f3)
 }
 /*курсор для кнопок и ссылок*/
 .pointer {
@@ -58,37 +55,33 @@ color: #000;
 .main{
   width: 1600px;
   height: 600px;
-  left: 0px;
-  top: 80px;
-  background: #2F303A;
+  background: var(--title-color, #2F303A)
 }
 .title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  color: #fff;
-  position: absolute;
+  color: var(--list-color, white);
   width: 696px;
   height: 120px;
-  left: 452px;
-  top: 280px;
-}
+  text-align: center;
+ }
 /* Button */
 .stydio-button {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-  color: #fff;
-  background-color: #2196f3;
+  color: var(--list-color, white);
+  background-color: var(--logo-color, #2196f3);
   font-family: inherit;
-}
+  }
+
 .portfolio-button .element:focus
 .portfolio-button .element:hover {
   background: #F5F4FA;
   border-radius: 4px;
-  color: #000
-  background-color: #2196F3;
-  color: #fff;
+  color: var(--peculiarity-color, black)
+  
 }
 
 /* Особенности */
@@ -98,29 +91,28 @@ color: #000;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
-  color: #212121;
+  color: var(--peculiarity-color,#212121)
 }
 .about-peculiarity {
   font-size: 14px;
   line-height: 1.71;
-  color: #757575;
+  
 }
 .list{
   
 }
 .user{
-  background: #F5F4FA;
+  background: var (--user-color, #F5F4FA)
   height: 648px;
-  left: 0px;
-  top: 1449px;
   width: 1600px;
+  
 }
 .main-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
-  color: #212121;
- font-family: Roboto;
+  color: var(--peculiarity-color,#212121);
+ 
  text-align: center;
 }
 .item{
@@ -130,26 +122,36 @@ h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  color: #212121;
+  color: var(--lpeculiarity-color,#212121)
+  
 }
 p {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
-  color: #757575;
+  color: var(--text-color, #757575)
+  
 }
 address{
   font-style: normal;
 }
 ul {
   list-style: none;
-  color: #212121;
+  color: var(--peculiarity-color,#212121)
+  
 }
 a{
   text-decoration: none;
-  color: #2196f3
+  
 }
 footer{
- 
-  background: #2F303A;
+  background:  var(--title-color, #2F303A)
+}
+:root{
+  --text-color: #757575;
+  --logo-color: #2196f3;
+  --list-color: #ffffff;
+  --title-color: #2F303A;
+  --peculiarity-color: #212121;
+  --user-color:  #F5F4FA;
 }
