@@ -1,18 +1,17 @@
 body {
-  background: var(--list-color, white);
+  background: var(--list-color);
   font-family: Roboto, sans-serif;
 }
 .logo{
-text-decoration: none;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.19;
-font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  font-family: Raleway;
 }
 .logo-first {
   color: var(--logo-color, #2196f3)
 }
-.logo-second:visited{
+.logo-second{
   text-decoration: none;
   color: #000;
 }
@@ -65,6 +64,7 @@ font-family: Raleway;
   width: 696px;
   height: 120px;
   text-align: center;
+  text-transform: uppercase;
  }
 /* Button */
 .stydio-button {
@@ -91,7 +91,8 @@ font-family: Raleway;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
-  color: var(--peculiarity-color,#212121)
+  color: var(--peculiarity-color,#212121);
+  text-transform: uppercase;
 }
 .about-peculiarity {
   font-size: 14px;
@@ -140,8 +141,9 @@ ul {
   color: var(--peculiarity-color,#212121)
   
 }
-a{
+a {
   text-decoration: none;
+  
   
 }
 footer{
