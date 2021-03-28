@@ -76,11 +76,11 @@ body {
   font-family: inherit;
   }
 
-.portfolio-button .element:focus
+.portfolio-button .element:focus,
 .portfolio-button .element:hover {
-  background: #F5F4FA;
+  background:var(--logo-color);
   border-radius: 4px;
-  color: var(--peculiarity-color, black)
+  color: var(--list-color)
   
 }
 
@@ -139,12 +139,9 @@ address{
 ul {
   list-style: none;
   color: var(--peculiarity-color,#212121)
-  
 }
 a {
   text-decoration: none;
-  
-  
 }
 footer{
   background:  var(--title-color, #2F303A)
