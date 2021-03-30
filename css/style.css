@@ -16,11 +16,10 @@ body {
   line-height: 1.19;
   font-family: Raleway;
 }
-.logo-first {
-  color: var(--logo-color, #2196f3)
+.logo-footer {
+  color: var(--list-color)
 }
-.logo-second{
-  text-decoration: none;
+.logo-header{
   color: #000;
 }
 .portfolio-logo{
